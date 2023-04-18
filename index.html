@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Singolo</title>
-</head>
-<body>
-  <h1>Singolo</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Singolo</title>
+  </head>
+  <body>
+    <h2>HTML Forms</h2>
+    <form action="/action_page.php" method="get" target="_self">
+      <!-- <input type="date" name="birthday" />
+      <input type="time" name="game-time" />
+      <input type="email" name="email-address" required />
+      <input type="url" name="website" />
+      <input type="number" name="cost" />
+      <input type="tel" name="phone-number" />
+      <input type="color" name="color-picker" /> -->
+
+      <!-- <input type="radio" name="day" value="Friday" checked /> П'ятниця
+      <input type="radio" name="day" value="Saturday" /> Субота
+      <input type="radio" name="day" value="Sunday" /> Неділя
+
+      <input type="checkbox" name="day" value="Friday" checked /> П'ятниця
+      <input type="checkbox" name="day" value="Saturday" disabled /> Субота
+      <input type="checkbox" name="day" value="Sunday" required /> Неділя -->
+
+      <!-- <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="4"
+        style="resize: none"
+      ></textarea> -->
+      <!-- Для того щоб забрати повзунок і розмір текст-area не змінювався -->
+
+      <!-- <select name="day" id="" multiple>
+        <option value="Friday">П'ятниця</option>
+        <option value="Saturday">Субота</option>
+        <option value="Sunday" selected>Неділя</option>
+      </select> -->
+
+      <!-- input type="submit" він відправляє форму, повинен бути всередині тега form. 
+      як варіант можна використати для сабміту button -->
+      <!-- <input type="submit" value="Submit" />
+      <button>Submit</button> -->
+      <fieldset>
+        <legend>Form</legend>
+        <label for="fname">please enter first name</label> <br />
+        <input type="email" required id="email" value="a@a.com" /> <br />
+        <input
+          type="text"
+          required
+          name=""
+          id="fname"
+          placeholder="first name (Required)"
+        />
+        <br />
+      </fieldset>
+      <button>Submit</button>
+    </form>
+
+    <p>
+      If you click the "Submit" button, the form-data will be sent to a page
+      called "/action_page.php".
+    </p>
+  </body>
 </html>

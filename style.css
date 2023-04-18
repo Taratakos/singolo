@@ -1,3 +1,18 @@
+@import "variables.css";
+
 * {
   margin: 0;
+}
+
+#fname {
+  color: red;
+}
+
+/* такий псевдоелемнт як  ::placeholder (це не псевдоклас) */
+#fname::placeholder {
+  color: rgb(255, 0, 0, 0.5);
+}
+
+#fname:invalid {
+  border: red solid 2px;
 }
