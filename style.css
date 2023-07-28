@@ -1,18 +1,131 @@
-@import "variables.css";
-
-* {
+/* * {
   margin: 0;
+  padding: 0;
+} */
+
+/*  */
+
+/* 
+li {
+  background-color: green;
+  list-style: none;
 }
 
-#fname {
-  color: red;
+ 
+li:nth-child(1n + 17) {
+  display: none;
 }
 
-/* такий псевдоелемнт як  ::placeholder (це не псевдоклас) */
-#fname::placeholder {
-  color: rgb(255, 0, 0, 0.5);
+ul {
+  display: grid;
+  width: 100%;
+  flex-wrap: wrap;
+  grid-template: "a a a a";
+  width: calc(100vw - 20px);
+  height: calc(100vw - 20px);
+  margin: 10px;
+  gap: 10px;
+}
+*/
+
+/*  */
+
+/* div {
+  background: linear-gradient(270deg, #cedb56, #008ace);
+} 
+
+div {
+  background: radial-gradient(circle, #008ace, #cedb56);
 }
 
-#fname:invalid {
-  border: red solid 2px;
+*/
+
+/* Vertical menu with a smooth appearance of an element on hover  */
+/*  */
+/* .menu {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  transform: skew (-15deg);
 }
+
+.menu {
+  flex-direction: row;
+}
+.menu li {
+  transform: skew(-15deg);
+}
+
+a {
+  background-color: #76cdd8;
+  border: 2px solid white;
+  color: #fff;
+  display: block;
+  font-size: x-large;
+  padding: 15px;
+  text-decoration: none;
+  width: 200px;
+  transition-property: width, background-color;
+  transition-duration: 1s, 500ms;
+}
+
+a:hover {
+  background-color: #cedb56;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 300px;
+} */
+
+/*  */
+/* Use rotate() function to effect different arrangement of gallery images. */
+
+/* .gallery {
+  padding: 20px;
+}
+.gallery img {
+  margin-right: 40px;
+}
+.rotate-odd {
+  transform: rotate(25deg);
+}
+.rotate-even {
+  transform: rotate(-25deg);
+} */
+
+/* 3 */
+/* Animation Cards */
+/* The 3D transformation */
+
+/*
+.card-flipper {
+  display: inline-block;
+  height: 300px;
+  width: 200px;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+.card {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  color: white;
+  background-color: #008ace;
+  font-size: xx-large;
+}
+
+.card-back {
+  color: #222222;
+  background-color: #cedb56;
+  transform: rotateY(180deg);
+}
+
+.card-flipper:hover {
+  transform: rotateY(180deg);
+}
+*/
